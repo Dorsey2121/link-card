@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #512200;
+}
+
+p {
+  color: #512200;
+  font-size: 1.125rem;
+}
+
+
+div {
+  color:#512200;
+}
+
+dl {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+}
+
+dt {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+dd {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin: 0;
+  font-style: italic;
+}
+
+.list {
+  border-style: solid;
+  border-color: #9a816d;
+  border-right: none;
+  border-left: none;
+}
+
+.link-card {
+  text-decoration: none;
+  border-style: solid;
+  border-color: #9a816d;
+  border-radius: 3px;
+  border-width: 3px;
+  background-color: #cabdb2;
+  padding: .5em;
+  display: block;
+}
+
+.link-card:hover {
+  background-color: #5e54af;
+  border-color: #5e54af;
+  color: #fff;
+}
+
+.link-card:hover .btn {
+  background-color: #bbb6e3;
+}
+
+.btn-wrap {
+text-align: center;
+}
+
+.btn {
+  background-color: #785439;
+  color: #fff;
+  padding: .5em;
+  border-radius: 8px;
+  font-family: 'Dosis', sans-serif;
+}
+
+
+/**button
+dt float left width 50% inline block
+dd float left 50$ inline
+dl padding 0
+margin 0
+font size
+line weight
