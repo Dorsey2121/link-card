@@ -12,10 +12,10 @@ body {
   margin: 0;
 }
 
-h2 {
-  font-family: 'Dosis', sans-serif;
+.link-card h2 {
+  font-family: Dosis, sans-serif;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: bold;
   color: #512200;
   margin: 0;
 }
@@ -28,7 +28,7 @@ p {
 }
 
 div {
-  color:#512200;
+  color: #512200;
 }
 
 dl {
@@ -73,6 +73,16 @@ dd {
   margin: .5rem;
 }
 
+.btn {
+  background-color: #785439;
+  color: #fff;
+  padding: .6em;
+  border-radius: 8px;
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
 .link-card:hover {
   background-color: #cabdb2;
   border-color: #9a816d;
@@ -83,25 +93,6 @@ dd {
 }
 
 .btn-wrap {
-text-align: center;
-margin: 1.7rem 0 1rem;
+  text-align: center;
+  margin: 1.7rem 0 1rem;
 }
-
-.btn {
-  background-color: #785439;
-  color: #fff;
-  padding: .6em;
-  border-radius: 8px;
-  font-family: 'Dosis', sans-serif;
-  font-size: 1.125rem;
-  font-weight: 700;
-}
-
-
-/**button
-dt float left width 50% inline block
-dd float left 50$ inline
-dl padding 0
-margin 0
-font size
-line weight
