@@ -74,25 +74,27 @@ dd {
 }
 
 .link-card:hover {
-  background-color: #5e54af;
-  border-color: #5e54af;
-  color: #fff;
+  background-color: #cabdb2;
+  border-color: #9a816d;
 }
 
 .link-card:hover .btn {
-  background-color: #bbb6e3;
+  background-color: #512200;
 }
 
 .btn-wrap {
 text-align: center;
+margin: 1.7rem 0 1rem;
 }
 
 .btn {
   background-color: #785439;
   color: #fff;
-  padding: .5em;
+  padding: .6em;
   border-radius: 8px;
   font-family: 'Dosis', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
 }
 
 
